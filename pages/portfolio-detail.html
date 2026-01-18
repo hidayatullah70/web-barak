@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Portfolio - PT. BIMASENA ADHIRAJASA RADHIKA (BARAK)</title>
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#1e40af',
+                        'accent': '#dc2626',
+                        'support': '#16a34a',
+                        'primary-dark': '#1e3a8a',
+                        'accent-dark': '#b91c1c',
+                    },
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .project-gallery img {
+            transition: transform 0.3s ease;
+        }
+        .project-gallery img:hover {
+            transform: scale(1.05);
+        }
+        .service-badge {
+            transition: all 0.3s ease;
+        }
+        .service-badge:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="../index.html" class="flex items-center space-x-2">
+                        <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-xl">B</span>
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-xl text-gray-900">BARAK</h1>
+                            <p class="text-xs text-gray-600">PT. BIMASENA ADHIRAJASA RADHIKA</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="../index.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Home</a>
+                    <a href="about-detail.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">About</a>
+                    <a href="../index.html#services" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Services</a>
+                    <a href="portfolio-detail.html" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Projects</a>
+                    <a href="../index.html#contact" class="text-gray-700 hover:text-primary transition-colors duration-300 font-medium">Contact</a>
+                    <a href="../index.html#contact" class="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg font-medium transition-all duration-300 shadow-md hover:shadow-lg">Get Quote</a>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-primary focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="pt-20 pb-8 bg-gray-100">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <nav class="breadcrumb flex items-center space-x-2 text-sm">
+                <a href="../index.html" class="text-gray-600 hover:text-primary">Home</a>
+                <span class="text-gray-400"><i class="fas fa-chevron-right"></i></span>
+                <a href="../index.html#portfolio" class="text-gray-600 hover:text-primary">Portfolio</a>
+                <span class="text-gray-400"><i class="fas fa-chevron-right"></i></span>
+                <span class="text-primary font-medium">Mall Taman Anggrek</span>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Project Header -->
+        <section class="py-12 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Project Tags -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="service-badge bg-primary text-white px-4 py-1 rounded-full text-sm font-medium">Retail</span>
+                        <span class="service-badge bg-accent text-white px-4 py-1 rounded-full text-sm font-medium">Security</span>
+                        <span class="service-badge bg-support text-white px-4 py-1 rounded-full text-sm font-medium">Cleaning Service</span>
+                        <span class="service-badge bg-gray-200 text-gray-700 px-4 py-1 rounded-full text-sm font-medium">Parkir Management</span>
+                    </div>
+                    
+                    <!-- Project Title -->
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Mall Taman Anggrek - Layanan Terintegrasi</h1>
+                    
+                    <!-- Project Meta -->
+                    <div class="flex flex-wrap items-center gap-6 text-gray-600 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-calendar-alt mr-2 text-primary"></i>
+                            <span>2022 - Sekarang</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-user-friends mr-2 text-primary"></i>
+                            <span>50+ Personel</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-2 text-primary"></i>
+                            <span>Jakarta Barat</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Project Image -->
+                    <div class="rounded-2xl overflow-hidden shadow-xl mb-8">
+                        <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                             alt="Mall Taman Anggrek" class="w-full h-96 object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details -->
+        <section class="py-12 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                        <!-- Left Column - Project Description -->
+                        <div class="lg:col-span-2">
+                            <h2 class="text-3xl font-bold text-gray-900 mb-8">Detail Proyek</h2>
+                            
+                            <div class="space-y-8">
+                                <!-- Project Overview -->
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-4">Overview</h3>
+                                    <p class="text-gray-600 mb-4">
+                                        PT. BIMASENA ADHIRAJASA RADHIKA (BARAK) dipercaya untuk menyediakan layanan terintegrasi di Mall Taman Anggrek, salah satu mall terbesar dan tersibuk di Jakarta Barat dengan luas 150,000 m².
+                                    </p>
+                                    <p class="text-gray-600">
+                                        Kami bertanggung jawab atas keamanan, kebersihan, dan manajemen parkir di area mall yang terdiri dari 6 lantai pusat perbelanjaan, area food court, dan 2,000 slot parkir.
+                                    </p>
+                                </div>
+
+                                <!-- Services Provided -->
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-4">Layanan yang Diberikan</h3>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <div class="flex items-center mb-3">
+                                                <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+                                                    <i class="fas fa-shield-alt text-primary"></i>
+                                                </div>
+                                                <h4 class="font-bold text-gray-900">Pengamanan 24/7</h4>
+                                            </div>
+                                            <ul class="text-gray-600 text-sm space-y-2">
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>30 security officers bersertifikat</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Sistem CCTV monitoring terpusat</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Patroli reguler setiap 2 jam</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <div class="flex items-center mb-3">
+                                                <div class="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mr-3">
+                                                    <i class="fas fa-broom text-accent"></i>
+                                                </div>
+                                                <h4 class="font-bold text-gray-900">Cleaning Service</h4>
+                                            </div>
+                                            <ul class="text-gray-600 text-sm space-y-2">
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>15 cleaning staff khusus mall</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Deep cleaning mingguan</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Pengelolaan sampah terpadu</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <div class="flex items-center mb-3">
+                                                <div class="w-10 h-10 bg-support/10 rounded-lg flex items-center justify-center mr-3">
+                                                    <i class="fas fa-parking text-support"></i>
+                                                </div>
+                                                <h4 class="font-bold text-gray-900">Manajemen Parkir</h4>
+                                            </div>
+                                            <ul class="text-gray-600 text-sm space-y-2">
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>10 petugas parkir</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Sistem ticketing elektronik</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Valet service khusus</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <div class="flex items-center mb-3">
+                                                <div class="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center mr-3">
+                                                    <i class="fas fa-search text-primary"></i>
+                                                </div>
+                                                <h4 class="font-bold text-gray-900">Loss Prevention</h4>
+                                            </div>
+                                            <ul class="text-gray-600 text-sm space-y-2">
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Pencegahan shoplifting</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Monitoring titik rawan</span>
+                                                </li>
+                                                <li class="flex items-start">
+                                                    <i class="fas fa-check text-support mr-2 mt-1"></i>
+                                                    <span>Koordinasi dengan tenant</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Challenges & Solutions -->
+                                <div>
+                                    <h3 class="text-xl font-bold text-gray-900 mb-4">Tantangan & Solusi</h3>
+                                    <div class="space-y-4">
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <h4 class="font-bold text-gray-900 mb-2">Tantangan: Kepadatan Pengunjung Weekend</h4>
+                                            <p class="text-gray-600">Mall menerima 50,000+ pengunjung di akhir pekan, menimbulkan risiko keamanan dan kebersihan.</p>
+                                            <div class="mt-3">
+                                                <span class="text-sm font-medium text-primary">Solusi:</span>
+                                                <p class="text-gray-600 text-sm mt-1">Implementasi sistem shift ganda dan penambahan personel cadangan di akhir pekan.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="bg-white p-5 rounded-xl border border-gray-200">
+                                            <h4 class="font-bold text-gray-900 mb-2">Tantangan: Area Parkir yang Luas</h4>
+                                            <p class="text-gray-600">2,000 slot parkir yang tersebar di 4 lantai basement sulit dimonitor.</p>
+                                            <div class="mt-3">
+                                                <span class="text-sm font-medium text-primary">Solusi:</span>
+                                                <p class="text-gray-600 text-sm mt-1">Instalasi CCTV tambahan dan patroli mobile dengan kendaraan golf cart.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Column - Project Stats & Info -->
+                        <div class="space-y-8">
+                            <!-- Project Statistics -->
+                            <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                                <h3 class="text-xl font-bold text-gray-900 mb-6">Statistik Proyek</h3>
+                                <div class="space-y-4">
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-600">Durasi Kontrak</span>
+                                            <span class="font-bold text-gray-900">2 Tahun</span>
+                                        </div>
+                                        <div class="w-full bg-gray-200 rounded-full h-2">
+                                            <div class="bg-primary h-2 rounded-full" style="width: 60%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-600">Total Personel</span>
+                                            <span class="font-bold text-gray-900">55 Orang</span>
+                                        </div>
+                                        <div class="w-full bg-gray-200 rounded-full h-2">
+                                            <div class="bg-accent h-2 rounded-full" style="width: 100%"></div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div class="flex justify-between mb-1">
+                                            <span class="text-gray-600">Kepuasan Klien</span>
+                                            <span class="font-bold text-gray-900">98%</span>
+                                        </div>
+                                        <div class="w-full bg-gray-200 rounded-full h-2">
+                                            <div class="bg-support h-2 rounded-full" style="width: 98%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mt-8 grid grid-cols-2 gap-4">
+                                    <div class="text-center">
+                                        <div class="text-2xl font-bold text-primary mb-1">2</div>
+                                        <div class="text-sm text-gray-600">Tahun Kerjasama</div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="text-2xl font-bold text-primary mb-1">0</div>
+                                        <div class="text-sm text-gray-600">Insiden Keamanan</div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="text-2xl font-bold text-primary mb-1">55</div>
+                                        <div class="text-sm text-gray-600">Personel Aktif</div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="text-2xl font-bold text-primary mb-1">98%</div>
+                                        <div class="text-sm text-gray-600">Kepuasan</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Client Testimonial -->
+                            <div class="bg-primary text-white rounded-xl shadow-lg p-6">
+                                <div class="flex items-center mb-4">
+                                    <div class="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mr-3">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">Manajer Operasional</h4>
+                                        <p class="text-white/80 text-sm">Mall Taman Anggrek</p>
+                                    </div>
+                                </div>
+                                <p class="italic">"PT. BARAK telah memberikan layanan yang luar biasa profesional. Sistem keamanan mereka sangat efektif dan tim cleaning service selalu menjaga kebersihan mall dengan standar tinggi."</p>
+                            </div>
+
+                            <!-- Download Project Brief -->
+                            <div class="bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                                <h3 class="text-xl font-bold text-gray-900 mb-4">Dokumen Proyek</h3>
+                                <div class="space-y-3">
+                                    <a href="#" class="flex items-center justify-between p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors duration-300">
+                                        <div class="flex items-center">
+                                            <i class="fas fa-file-pdf text-red-500 mr-3"></i>
+                                            <span class="text-gray-700">Project Brief.pdf</span>
+                                        </div>
+                                        <span class="text-gray-400 text-sm">2.4 MB</span>
+                                    </a>
+                                    <a href="#" class="flex items-center justify-between p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors duration-300">
+                                        <div class="flex items-center">
+                                            <i class="fas fa-chart-bar text-primary mr-3"></i>
+                                            <span class="text-gray-700">Performance Report.pdf</span>
+                                        </div>
+                                        <span class="text-gray-400 text-sm">1.8 MB</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- CTA Button -->
+                            <a href="../index.html#contact" class="block w-full bg-primary hover:bg-primary-dark text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+                                <i class="fas fa-calendar-check mr-2"></i> Konsultasi Proyek Serupa
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Gallery -->
+        <section class="py-12 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Galeri Proyek</h2>
+                    <div class="project-gallery grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <div class="rounded-xl overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Mall Interior" class="w-full h-64 object-cover">
+                        </div>
+                        <div class="rounded-xl overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Security Team" class="w-full h-64 object-cover">
+                        </div>
+                        <div class="rounded-xl overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Parking Area" class="w-full h-64 object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Projects -->
+        <section class="py-12 bg-gray-50">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Proyek Lainnya</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Related Project 1 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                     alt="Plaza Bapindo" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Plaza Bapindo</h3>
+                                <p class="text-gray-600 text-sm mb-4">Layanan security dan cleaning service untuk gedung perkantoran 20 lantai.</p>
+                                <a href="portfolio-detail.html" class="text-primary font-medium hover:text-primary-dark text-sm">Lihat Detail →</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Project 2 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                     alt="PT. Industri Tekstil" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">PT. Industri Tekstil</h3>
+                                <p class="text-gray-600 text-sm mb-4">Keamanan 24/7 dan loss prevention untuk pabrik tekstil.</p>
+                                <a href="portfolio-detail.html" class="text-primary font-medium hover:text-primary-dark text-sm">Lihat Detail →</a>
+                            </div>
+                        </div>
+
+                        <!-- Related Project 3 -->
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100 hover:shadow-xl transition-all duration-300">
+                            <div class="h-48 overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1516733968668-dbdce39c4651?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                     alt="Supermarket Chain" class="w-full h-full object-cover">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Supermarket "Segar"</h3>
+                                <p class="text-gray-600 text-sm mb-4">Layanan terintegrasi untuk 15 cabang supermarket.</p>
+                                <a href="portfolio-detail.html" class="text-primary font-medium hover:text-primary-dark text-sm">Lihat Detail →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <div>
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mr-4">
+                            <span class="text-white font-bold text-2xl">B</span>
+                        </div>
+                        <div>
+                            <h2 class="text-2xl font-bold">BARAK</h2>
+                            <p class="text-gray-300 text-sm">PT. BIMASENA ADHIRAJASA RADHIKA</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6">Solusi terintegrasi untuk keamanan dan layanan profesional bisnis Anda.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Kontak</h3>
+                    <ul class="space-y-3 text-gray-300">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
+                            <span>Jl. Sudirman No. 123, Jakarta Selatan</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-3 text-primary"></i>
+                            <span>(021) 123-4567</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-3 text-primary"></i>
+                            <span>info@barakconstruction.co.id</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Layanan</h3>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="../index.html#services" class="hover:text-white">Pengamanan (Security)</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white">Ekspedisi Kurir</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white">Man Power</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white">Cleaning Service</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white">Parkir</a></li>
+                        <li><a href="../index.html#services" class="hover:text-white">Loss Prevention</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Tautan Cepat</h3>
+                    <ul class="space-y-2">
+                        <li><a href="../index.html" class="text-gray-300 hover:text-white">Home</a></li>
+                        <li><a href="about-detail.html" class="text-gray-300 hover:text-white">Tentang Kami</a></li>
+                        <li><a href="portfolio-detail.html" class="text-gray-300 hover:text-white">Portfolio</a></li>
+                        <li><a href="../index.html#contact" class="text-gray-300 hover:text-white">Kontak</a></li>
+                        <li><a href="contact-success.html" class="text-gray-300 hover:text-white">Karir</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 PT. BIMASENA ADHIRAJASA RADHIKA (BARAK). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.createElement('div');
+            
+            mobileMenu.innerHTML = `
+                <div class="md:hidden hidden bg-white border-t absolute w-full shadow-lg" id="mobile-menu-content">
+                    <div class="px-2 pt-2 pb-3 space-y-1">
+                        <a href="../index.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-100">Home</a>
+                        <a href="about-detail.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-100">About</a>
+                        <a href="../index.html#services" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-100">Services</a>
+                        <a href="portfolio-detail.html" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-100">Projects</a>
+                        <a href="../index.html#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary hover:bg-gray-100">Contact</a>
+                    </div>
+                </div>
+            `;
+            
+            document.querySelector('nav').appendChild(mobileMenu);
+            
+            mobileMenuButton.addEventListener('click', () => {
+                const menuContent = document.getElementById('mobile-menu-content');
+                menuContent.classList.toggle('hidden');
+                menuContent.classList.toggle('absolute');
+            });
+        });
+    </script>
+</body>
+</html>

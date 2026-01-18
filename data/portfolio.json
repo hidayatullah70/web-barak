@@ -1,0 +1,332 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Mall Taman Anggrek",
+      "slug": "mall-taman-anggrek",
+      "category": "retail",
+      "client": "PT. Taman Anggrek Property",
+      "location": "Jakarta Barat",
+      "duration": "2022 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Cleaning Service", "Parkir", "Loss Prevention"],
+      "short_description": "Layanan terintegrasi untuk salah satu mall terbesar di Jakarta Barat.",
+      "full_description": "Kami dipercaya untuk menyediakan layanan terintegrasi di Mall Taman Anggrek yang mencakup keamanan 24/7, cleaning service untuk area seluas 150,000 m², manajemen 2,000 slot parkir, dan sistem loss prevention yang komprehensif.",
+      "challenges": [
+        "Tingkat pengunjung tinggi (50,000+ di weekend)",
+        "Area yang sangat luas",
+        "Koordinasi dengan 300+ tenant"
+      ],
+      "solutions": [
+        "Implementasi sistem shift ganda",
+        "Penambahan CCTV strategis",
+        "Patroli mobile dengan golf cart",
+        "Sistem koordinasi terpusat"
+      ],
+      "results": {
+        "security_incidents": 0,
+        "client_satisfaction": 98,
+        "parking_efficiency": 95,
+        "cleaning_standards": 97
+      },
+      "personnel": 55,
+      "images": [
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+        "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957"
+      ],
+      "testimonial": {
+        "text": "PT. BARAK telah memberikan layanan yang luar biasa profesional. Sistem keamanan mereka sangat efektif dan tim cleaning service selalu menjaga kebersihan mall dengan standar tinggi.",
+        "author": "Budi Santoso",
+        "position": "Manajer Operasional",
+        "company": "Mall Taman Anggrek"
+      },
+      "statistics": {
+        "area": 150000,
+        "visitors_daily": 20000,
+        "tenants": 300,
+        "parking_slots": 2000,
+        "contract_value": 5000000000
+      }
+    },
+    {
+      "id": 2,
+      "title": "Plaza Bapindo",
+      "slug": "plaza-bapindo",
+      "category": "office",
+      "client": "Bank Bapindo",
+      "location": "Jakarta Pusat",
+      "duration": "2021 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Man Power", "Cleaning Service"],
+      "short_description": "Layanan keamanan dan tenaga kerja untuk gedung perkantoran 20 lantai.",
+      "full_description": "Kami menyediakan layanan security 24/7, tenaga administrasi untuk resepsionis dan front office, serta cleaning service untuk seluruh area Plaza Bapindo yang terdiri dari 20 lantai perkantoran.",
+      "challenges": [
+        "Tingkat keamanan tinggi untuk institusi finansial",
+        "Koordinasi dengan multiple tenants",
+        "Standar kebersihan yang ketat"
+      ],
+      "solutions": [
+        "Multi-layer security system",
+        "Dedicated security command center",
+        "Specialized cleaning protocols",
+        "Regular security audits"
+      ],
+      "results": {
+        "security_breaches": 0,
+        "tenant_satisfaction": 96,
+        "response_time_minutes": 3,
+        "audit_compliance": 100
+      },
+      "personnel": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1497366754035-f200968a6e72",
+        "https://images.unsplash.com/photo-1487956382158-bb926046304a"
+      ],
+      "testimonial": {
+        "text": "Kerjasama dengan BARAK memberikan rasa aman yang maksimal untuk properti dan karyawan kami. Tim mereka sangat profesional dan responsif.",
+        "author": "Dian Pratiwi",
+        "position": "Property Manager",
+        "company": "Plaza Bapindo"
+      },
+      "statistics": {
+        "floors": 20,
+        "tenants": 50,
+        "daily_visitors": 1000,
+        "security_cameras": 150,
+        "contract_value": 2500000000
+      }
+    },
+    {
+      "id": 3,
+      "title": "PT. Industri Tekstil Maju",
+      "slug": "pt-industri-tekstil-maju",
+      "category": "industrial",
+      "client": "PT. Industri Tekstil Maju",
+      "location": "Cikarang, Jawa Barat",
+      "duration": "2020 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Man Power", "Loss Prevention"],
+      "short_description": "Keamanan 24/7 dan tenaga kerja untuk pabrik tekstil skala besar.",
+      "full_description": "Layanan keamanan komprehensif untuk pabrik tekstil seluas 50 hektar, termasuk security perimeter, access control untuk area produksi, dan sistem loss prevention untuk bahan baku dan produk jadi.",
+      "challenges": [
+        "Area pabrik yang sangat luas",
+        "Perlindungan bahan baku berharga",
+        "Shift kerja 24 jam"
+      ],
+      "solutions": [
+        "Perimeter security dengan patroli reguler",
+        "Access control untuk area sensitif",
+        "Inventory tracking system",
+        "Shift-based security deployment"
+      ],
+      "results": {
+        "theft_reduction": 85,
+        "production_uptime": 99,
+        "employee_safety": 100,
+        "inventory_accuracy": 98
+      },
+      "personnel": 75,
+      "images": [
+        "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+        "https://images.unsplash.com/photo-1581094792937-b3cbc9b3c7a5"
+      ],
+      "testimonial": {
+        "text": "Sistem loss prevention BARAK telah membantu kami mengurangi kerugian secara signifikan. Tim security mereka sangat memahami operasional pabrik.",
+        "author": "Ahmad Riyadi",
+        "position": "Direktur Operasional",
+        "company": "PT. Industri Tekstil Maju"
+      },
+      "statistics": {
+        "area_hectares": 50,
+        "employees": 2000,
+        "production_lines": 15,
+        "security_checkpoints": 25,
+        "contract_value": 3500000000
+      }
+    },
+    {
+      "id": 4,
+      "title": "Supermarket Chain \"Segar\"",
+      "slug": "supermarket-segar",
+      "category": "retail",
+      "client": "PT. Segar Mart Indonesia",
+      "location": "Jabodetabek",
+      "duration": "2019 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Loss Prevention", "Cleaning Service"],
+      "short_description": "Layanan terintegrasi untuk 15 cabang supermarket di area Jabodetabek.",
+      "full_description": "Kami menyediakan layanan security, loss prevention, dan cleaning service untuk 15 cabang supermarket di wilayah Jabodetabek dengan pendekatan terstandardisasi namun tetap fleksibel untuk kebutuhan masing-masing cabang.",
+      "challenges": [
+        "Multiple locations dengan karakter berbeda",
+        "High risk of shoplifting",
+        "Standar kebersihan yang konsisten"
+      ],
+      "solutions": [
+        "Centralized monitoring system",
+        "Standardized SOP semua cabang",
+        "Regular mystery shopping",
+        "Performance-based incentives"
+      ],
+      "results": {
+        "shoplifting_reduction": 70,
+        "customer_satisfaction": 95,
+        "hygiene_compliance": 98,
+        "cost_savings": 500000000
+      },
+      "personnel": 120,
+      "images": [
+        "https://images.unsplash.com/photo-1516733968668-dbdce39c4651",
+        "https://images.unsplash.com/photo-1542838132-92c53300491e"
+      ],
+      "testimonial": {
+        "text": "Dengan BARAK, kami bisa fokus pada bisnis retail sambil yakin bahwa aspek keamanan dan kebersihan ditangani dengan profesional.",
+        "author": "Maria Wijaya",
+        "position": "Regional Manager",
+        "company": "Segar Mart"
+      },
+      "statistics": {
+        "branches": 15,
+        "total_area": 45000,
+        "daily_customers": 30000,
+        "employees_covered": 800,
+        "contract_value": 8000000000
+      }
+    },
+    {
+      "id": 5,
+      "title": "Hotel Santika Premiere",
+      "slug": "hotel-santika-premiere",
+      "category": "hospitality",
+      "client": "Santika Indonesia Hotels",
+      "location": "Jakarta Selatan",
+      "duration": "2023 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Parkir", "Cleaning Service", "Man Power"],
+      "short_description": "Layanan terintegrasi untuk hotel bintang 4 di kawasan bisnis Jakarta.",
+      "full_description": "Kami menyediakan layanan security, valet parking, cleaning service khusus hotel, dan tenaga banquet untuk Hotel Santika Premiere yang memiliki 200 kamar dan berbagai fasilitas seperti ballroom, restoran, dan spa.",
+      "challenges": [
+        "Tingkat keamanan untuk tamu VIP",
+        "Parkir terbatas di area CBD",
+        "Standar kebersihan hotel internasional"
+      ],
+      "solutions": [
+        "VIP security protocols",
+        "Efficient valet parking system",
+        "Hotel-grade cleaning standards",
+        "24/7 command center"
+      ],
+      "results": {
+        "guest_safety": 100,
+        "parking_efficiency": 90,
+        "cleanliness_score": 9.5,
+        "staff_response_time": 2
+      },
+      "personnel": 45,
+      "images": [
+        "https://images.unsplash.com/photo-1487956382158-bb926046304a",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945"
+      ],
+      "testimonial": {
+        "text": "Layanan BARAK sangat mendukung operasional hotel kami. Tamu merasa aman dan puas dengan layanan valet dan kebersihan yang excellent.",
+        "author": "Rina Kartika",
+        "position": "Hotel Manager",
+        "company": "Santika Premiere"
+      },
+      "statistics": {
+        "rooms": 200,
+        "parking_capacity": 150,
+        "restaurants": 3,
+        "meeting_rooms": 10,
+        "contract_value": 3000000000
+      }
+    },
+    {
+      "id": 6,
+      "title": "PT. Logistik Cepat",
+      "slug": "pt-logistik-cepat",
+      "category": "logistics",
+      "client": "PT. Logistik Cepat Indonesia",
+      "location": "Tangerang, Banten",
+      "duration": "2022 - Sekarang",
+      "status": "ongoing",
+      "services": ["Pengamanan (Security)", "Man Power", "Loss Prevention"],
+      "short_description": "Layanan keamanan dan tenaga kerja untuk perusahaan logistik terkemuka.",
+      "full_description": "Kami menyediakan layanan keamanan untuk gudang utama seluas 20,000 m², tenaga kerja untuk operasional logistik, dan sistem loss prevention untuk meminimalkan kerugian dalam rantai pasok.",
+      "challenges": [
+        "Keamanan inventory bernilai tinggi",
+        "Operasional 24/7",
+        "Koordinasi dengan multiple shifts"
+      ],
+      "solutions": [
+        "Advanced CCTV dengan analytics",
+        "RFID tracking system",
+        "Integrated security-ops system",
+        "Regular inventory audits"
+      ],
+      "results": {
+        "inventory_loss": 0.5,
+        "operational_efficiency": 95,
+        "security_audit_score": 98,
+        "employee_productivity": 110
+      },
+      "personnel": 60,
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43",
+        "https://images.unsplash.com/photo-1556742111-a301b5f64d6d"
+      ],
+      "testimonial": {
+        "text": "Sistem keamanan BARAK sangat cocok dengan operasional logistik kami yang cepat dan dinamis. Mereka memahami kebutuhan bisnis kami.",
+        "author": "Joko Wibowo",
+        "position": "Operational Director",
+        "company": "PT. Logistik Cepat"
+      },
+      "statistics": {
+        "warehouse_area": 20000,
+        "daily_shipments": 5000,
+        "inventory_value": 50000000000,
+        "security_zones": 15,
+        "contract_value": 2800000000
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "all",
+      "name": "Semua Proyek",
+      "count": 6
+    },
+    {
+      "id": "retail",
+      "name": "Retail & Mall",
+      "count": 2
+    },
+    {
+      "id": "office",
+      "name": "Perkantoran",
+      "count": 1
+    },
+    {
+      "id": "industrial",
+      "name": "Industri",
+      "count": 1
+    },
+    {
+      "id": "hospitality",
+      "name": "Hospitality",
+      "count": 1
+    },
+    {
+      "id": "logistics",
+      "name": "Logistik",
+      "count": 1
+    }
+  ],
+  "statistics": {
+    "total_projects": 6,
+    "ongoing_projects": 6,
+    "total_personnel_deployed": 385,
+    "total_contract_value": 25800000000,
+    "average_client_satisfaction": 97.5
+  }
+}

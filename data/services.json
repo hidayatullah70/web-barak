@@ -1,0 +1,328 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "name": "Pengamanan (Security)",
+      "slug": "pengamanan-security",
+      "icon": "fas fa-shield-alt",
+      "color": "primary",
+      "short_description": "Layanan keamanan komprehensif dengan personel bersertifikat dan sistem pengawasan modern.",
+      "full_description": "Kami menyediakan layanan pengamanan profesional yang mencakup security guard bersertifikat, sistem CCTV monitoring 24/7, access control, mobile patrol, dan emergency response. Personel kami telah melalui pelatihan intensif dan memiliki sertifikasi resmi dari Polri untuk memastikan keamanan optimal untuk properti dan aset Anda.",
+      "features": [
+        "Security Officer bersertifikat Polri",
+        "Sistem CCTV monitoring 24/7",
+        "Access Control dengan teknologi terkini",
+        "Mobile Patrol untuk area luas",
+        "Emergency Response Team",
+        "Laporan keamanan harian"
+      ],
+      "benefits": [
+        "Perlindungan aset perusahaan",
+        "Lingkungan kerja yang aman",
+        "Pencegahan kejahatan",
+        "Respons cepat situasi darurat",
+        "Kepatuhan regulasi keamanan"
+      ],
+      "packages": [
+        {
+          "name": "Basic",
+          "price": "Rp 8.000.000",
+          "period": "per bulan",
+          "features": ["2 Security Officer", "8 jam kerja/hari", "Laporan mingguan"],
+          "recommended": false
+        },
+        {
+          "name": "Standard",
+          "price": "Rp 15.000.000",
+          "period": "per bulan",
+          "features": ["4 Security Officer", "12 jam kerja/hari", "CCTV Monitoring", "Laporan harian"],
+          "recommended": true
+        },
+        {
+          "name": "Premium",
+          "price": "Rp 25.000.000",
+          "period": "per bulan",
+          "features": ["6+ Security Officer", "24 jam penuh", "CCTV & Access Control", "Mobile Patrol", "Laporan real-time"],
+          "recommended": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+      "statistics": {
+        "personnel": 500,
+        "projects": 150,
+        "satisfaction": 98,
+        "years_experience": 12
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ekspedisi Kurir",
+      "slug": "ekspedisi-kurir",
+      "icon": "fas fa-shipping-fast",
+      "color": "accent",
+      "short_description": "Layanan pengiriman barang yang cepat, aman, dan terpercaya dengan jaringan luas.",
+      "full_description": "Layanan ekspedisi kurir kami mencakup pengiriman dokumen dan barang dengan berbagai pilihan layanan dari reguler hingga express. Dengan sistem tracking real-time dan jaringan yang luas, kami menjamin barang Anda sampai tepat waktu dan dalam kondisi baik.",
+      "features": [
+        "Pengiriman lokal & nasional",
+        "Tracking real-time",
+        "Layanan express & reguler",
+        "Asuransi pengiriman",
+        "Pickup & delivery service",
+        "Laporan pengiriman"
+      ],
+      "benefits": [
+        "Pengiriman tepat waktu",
+        "Keamanan barang terjamin",
+        "Biaya kompetitif",
+        "Fleksibilitas layanan",
+        "Customer service 24/7"
+      ],
+      "packages": [
+        {
+          "name": "Reguler",
+          "price": "Rp 15.000",
+          "period": "per kg",
+          "features": ["3-5 hari pengiriman", "Tracking online", "Asuransi dasar"],
+          "recommended": false
+        },
+        {
+          "name": "Express",
+          "price": "Rp 25.000",
+          "period": "per kg",
+          "features": ["1-2 hari pengiriman", "Priority handling", "Asuransi lengkap", "Pickup service"],
+          "recommended": true
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088",
+      "statistics": {
+        "delivery_success": 99.5,
+        "coverage_cities": 50,
+        "fleet_size": 100,
+        "active_clients": 200
+      }
+    },
+    {
+      "id": 3,
+      "name": "Man Power",
+      "slug": "man-power",
+      "icon": "fas fa-user-tie",
+      "color": "support",
+      "short_description": "Penyediaan tenaga kerja profesional untuk berbagai kebutuhan industri.",
+      "full_description": "Kami menyediakan tenaga kerja terampil dan profesional untuk berbagai kebutuhan industri, mulai dari staf administrasi, operator, teknisi, hingga tenaga ahli. Semua personel melalui proses seleksi ketat dan pelatihan berkelanjutan untuk memastikan kualitas kerja yang optimal.",
+      "features": [
+        "Tenaga kerja terampil & terlatih",
+        "Staff administrasi & operasional",
+        "Tenaga ahli & spesialis",
+        "Outsourcing tenaga kerja",
+        "Management kontrak",
+        "Pelatihan & development"
+      ],
+      "benefits": [
+        "Fleksibilitas sumber daya",
+        "Biaya operasional efisien",
+        "Kualitas tenaga kerja terjamin",
+        "Pengelolaan HR yang profesional",
+        "Compliance dengan regulasi ketenagakerjaan"
+      ],
+      "packages": [
+        {
+          "name": "Administratif",
+          "price": "Rp 6.000.000",
+          "period": "per orang/bulan",
+          "features": ["Staff administrasi", "8 jam kerja/hari", "BPJS & THR"],
+          "recommended": false
+        },
+        {
+          "name": "Operasional",
+          "price": "Rp 8.000.000",
+          "period": "per orang/bulan",
+          "features": ["Operator/Technician", "Shift kerja", "Pelatihan khusus", "BPJS lengkap"],
+          "recommended": true
+        },
+        {
+          "name": "Spesialis",
+          "price": "Rp 12.000.000",
+          "period": "per orang/bulan",
+          "features": ["Tenaga ahli", "Fleksibel jam kerja", "Sertifikasi", "Management penuh"],
+          "recommended": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978",
+      "statistics": {
+        "available_personnel": 1000,
+        "training_hours": 5000,
+        "client_companies": 80,
+        "placement_success": 95
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cleaning Service",
+      "slug": "cleaning-service",
+      "icon": "fas fa-broom",
+      "color": "primary",
+      "short_description": "Layanan kebersihan profesional untuk kantor, gedung, mall, dan properti komersial.",
+      "full_description": "Layanan cleaning service profesional dengan standar kebersihan tinggi menggunakan peralatan modern dan chemical ramah lingkungan. Kami menyediakan layanan harian, mingguan, maupun deep cleaning untuk berbagai jenis properti.",
+      "features": [
+        "Cleaning harian & berkala",
+        "Deep cleaning & spesialis",
+        "Pengelolaan sampah terpadu",
+        "Peralatan modern",
+        "Chemical ramah lingkungan",
+        "Supervisi berkualitas"
+      ],
+      "benefits": [
+        "Lingkungan kerja bersih & sehat",
+        "Meningkatkan produktivitas",
+        "Perawatan properti optimal",
+        "Fleksibilitas jadwal",
+        "Biaya terprediksi"
+      ],
+      "packages": [
+        {
+          "name": "Regular",
+          "price": "Rp 5.000.000",
+          "period": "per bulan",
+          "features": ["Cleaning 5x/minggu", "Area umum", "Pengelolaan sampah"],
+          "recommended": false
+        },
+        {
+          "name": "Premium",
+          "price": "Rp 8.000.000",
+          "period": "per bulan",
+          "features": ["Cleaning harian", "Deep cleaning mingguan", "Special area cleaning", "Chemical provided"],
+          "recommended": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "per proyek",
+          "features": ["Full service", "24/7 availability", "Custom schedule", "Management reporting"],
+          "recommended": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1583947581924-860bda6a26df",
+      "statistics": {
+        "trained_staff": 300,
+        "square_meters": 500000,
+        "client_retention": 92,
+        "equipment_count": 150
+      }
+    },
+    {
+      "id": 5,
+      "name": "Parkir",
+      "slug": "parkir",
+      "icon": "fas fa-parking",
+      "color": "accent",
+      "short_description": "Manajemen dan operasional area parkir dengan sistem terintegrasi.",
+      "full_description": "Layanan manajemen parkir profesional untuk mall, gedung perkantoran, rumah sakit, dan fasilitas publik lainnya. Sistem kami mencakup ticketing elektronik, payment gateway, valet service, dan security khusus parkir.",
+      "features": [
+        "Manajemen parkir terintegrasi",
+        "Sistem ticketing elektronik",
+        "Payment gateway multi-option",
+        "Valet parking service",
+        "Security khusus parkir",
+        "Laporan transaksi real-time"
+      ],
+      "benefits": [
+        "Optimasi kapasitas parkir",
+        "Peningkatan pendapatan",
+        "Pengalaman pengguna yang baik",
+        "Keamanan kendaraan",
+        "Data analytics untuk pengambilan keputusan"
+      ],
+      "packages": [
+        {
+          "name": "Basic Management",
+          "price": "Rp 10.000.000",
+          "period": "per bulan",
+          "features": ["2 petugas parkir", "Manual ticketing", "Basic security"],
+          "recommended": false
+        },
+        {
+          "name": "Standard",
+          "price": "Rp 18.000.000",
+          "period": "per bulan",
+          "features": ["4 petugas parkir", "Electronic ticketing", "Payment system", "Daily reports"],
+          "recommended": true
+        },
+        {
+          "name": "Full Service",
+          "price": "Rp 30.000.000",
+          "period": "per bulan",
+          "features": ["6+ petugas parkir", "Valet service", "Advanced security", "Real-time analytics", "Customer service"],
+          "recommended": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+      "statistics": {
+        "managed_slots": 5000,
+        "daily_transactions": 10000,
+        "client_facilities": 40,
+        "system_uptime": 99.9
+      }
+    },
+    {
+      "id": 6,
+      "name": "Loss Prevention",
+      "slug": "loss-prevention",
+      "icon": "fas fa-search",
+      "color": "support",
+      "short_description": "Sistem pencegahan kerugian dengan pengawasan ketat dan audit internal.",
+      "full_description": "Sistem loss prevention yang komprehensif untuk meminimalkan risiko kerugian finansial akibat pencurian, penyusupan, atau mismanagement. Termasuk audit internal, monitoring CCTV analytics, dan implementasi SOP keamanan.",
+      "features": [
+        "Risk assessment & audit",
+        "CCTV analytics & monitoring",
+        "Prevention system implementation",
+        "Internal control review",
+        "Employee training",
+        "Incident investigation"
+      ],
+      "benefits": [
+        "Pengurangan kerugian finansial",
+        "Peningkatan profitability",
+        "Compliance dengan regulasi",
+        "Perlindungan aset",
+        "Data untuk pengambilan keputusan"
+      ],
+      "packages": [
+        {
+          "name": "Audit Only",
+          "price": "Rp 15.000.000",
+          "period": "per proyek",
+          "features": ["Risk assessment", "Audit report", "Recommendations"],
+          "recommended": false
+        },
+        {
+          "name": "Standard",
+          "price": "Rp 25.000.000",
+          "period": "per bulan",
+          "features": ["Continuous monitoring", "Regular audits", "Employee training", "Monthly reports"],
+          "recommended": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "per tahun",
+          "features": ["Full system implementation", "24/7 monitoring", "Advanced analytics", "Dedicated team", "Quarterly reviews"],
+          "recommended": false
+        }
+      ],
+      "image": "https://images.unsplash.com/photo-1551135049-8a33b2c7988a",
+      "statistics": {
+        "loss_reduction": 70,
+        "audits_completed": 200,
+        "trained_personnel": 500,
+        "client_savings": 5000000000
+      }
+    }
+  ],
+  "statistics": {
+    "total_services": 6,
+    "total_clients": 100,
+    "total_personnel": 500,
+    "years_experience": 12,
+    "service_satisfaction": 98
+  }
+}

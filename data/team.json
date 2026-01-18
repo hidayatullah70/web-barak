@@ -1,0 +1,204 @@
+{
+  "management": [
+    {
+      "id": 1,
+      "name": "Jully Priyanto",
+      "position": "Direktur Utama",
+      "slug": "juli-priyanto",
+      "email": "julipriyanto@gmail.com",
+      "phone": "+62 811-2345-678",
+      "bio": "Ahli dalam operasional dan implementasi sistem keamanan. Bertanggung jawab atas kualitas layanan, pengembangan SDM, dan operasional harian perusahaan. Memiliki sertifikasi internasional dalam security management.",
+      "education": [
+        "S1 Manajemen - Universitas Gadjah Mada",
+        "Diploma in Security Management - ASIS International",
+        "Certified Protection Professional (CPP)",
+        "Physical Security Professional (PSP)"
+      ],
+      "experience": [
+        "12+ tahun di security operations",
+        "Direktur Utama BARAK (2012-Sekarang)",
+        "Operations Manager - Garda Utama (2008-2012)",
+        "Security Consultant - berbagai proyek infrastruktur (2005-2008)"
+      ],
+      "specializations": ["Operations Management", "Quality Assurance", "HR Development", "Process Improvement"],
+      "image": "./assets/img/team/person-3.jpeg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/adhirajasa",
+        "instagram": "https://instagram.com/adhira.jasa"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Aep Saepudin",
+      "position": "Direktur Operasional",
+      "slug": "aep-saepudin",
+      "email": "aep.saepudin@gmail.com",
+      "phone": "+62 811-1234-567",
+      "bio": "Memiliki pengalaman lebih dari 15 tahun di industri jasa keamanan dan manajemen. Sebelum mendirikan BARAK, beliau menjabat sebagai Operations Director di perusahaan security multinasional. Spesialisasi dalam risk management dan strategic planning.",
+      "education": [
+        "S1 Teknik Industri - Universitas Indonesia",
+        "MBA - Institut Teknologi Bandung",
+        "Certified Security Professional (CSP)",
+        "ISO 31000 Risk Management"
+      ],
+      "experience": [
+        "15+ tahun di industri security",
+        "Direktur Utama BARAK (2010-Sekarang)",
+        "Operations Director - Securitas Indonesia (2005-2010)",
+        "Security Manager - Plaza Indonesia (2000-2005)"
+      ],
+      "specializations": ["Strategic Planning", "Risk Management", "Business Development", "Corporate Governance"],
+      "image": "./assets/img/team/person-2.jpeg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/bimasena",
+        "twitter": "https://twitter.com/bimasena"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Zaenal Arifin",
+      "position": "Direktur HRD",
+      "slug": "zaenal",
+      "email": "zaenal.arifin@gmail.com",
+      "phone": "+62 811-3456-789",
+      "bio": "Bertanggung jawab atas strategi finansial, pengelolaan anggaran, dan compliance perusahaan. Memiliki latar belakang yang kuat di bidang finance dan akuntansi dengan pengalaman di berbagai sektor.",
+      "education": [
+        "S1 Akuntansi - Universitas Padjadjaran",
+        "MBA Finance - Monash University",
+        "Certified Public Accountant (CPA)",
+        "Chartered Financial Analyst (CFA) Level II"
+      ],
+      "experience": [
+        "10+ tahun di finance & accounting",
+        "Direktur Keuangan BARAK (2015-Sekarang)",
+        "Finance Manager - Deloitte Indonesia (2010-2015)",
+        "Senior Auditor - PricewaterhouseCoopers (2007-2010)"
+      ],
+      "specializations": ["Financial Planning", "Budget Management", "Tax Compliance", "Investment Analysis"],
+      "image": "./assets/img/team/person-4.jpeg",
+      "social": {
+        "linkedin": "https://linkedin.com/in/radhikaputri"
+      }
+    }
+  ],
+  "department_heads": [
+    {
+      "id": 4,
+      "name": "Hendri Nopamin",
+      "position": "Marketing Manager",
+      "department": "marketing",
+      "email": "hendri@gmail.com",
+      "phone": "+62 822-1111-222",
+      "bio": "Mengawasi seluruh operasional marketing dengan pengalaman 20 tahun di bidang keamanan. Mantan perwira polisi dengan spesialisasi dalam criminal investigation.",
+      "experience_years": 20,
+      "certifications": ["Certified Security Supervisor", "Criminal Investigation", "Crisis Management", "First Aid & CPR"],
+      "image": "./assets/img/team/person-5.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Natasha Lieni Putri",
+      "position": "Finance & Accountan MAnager",
+      "department": "Finance",
+      "email": "natasha@gmail.com",
+      "phone": "+62 822-2222-333",
+      "bio": "Spesialis dalam facility management dan cleaning services dengan fokus pada standar higienis dan efisiensi operasional. Pengalaman luas di hospitality dan commercial cleaning.",
+      "experience_years": 15,
+      "certifications": ["ISO 9001 Lead Auditor", "Hospitality Cleaning Standards", "Green Cleaning Certified", "HACCP"],
+      "image": "./assets/img/team/person-woman.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Robin Topni, SH",
+      "position": "Legal & Support",
+      "department": "Legal",
+      "email": "robin@gmail.com",
+      "phone": "+62 822-3333-444",
+      "bio": "Ahli dalam manajemen logistik dan pengembangan tenaga kerja. Bertanggung jawab atas rekruitmen, training, dan deployment personel untuk semua divisi.",
+      "experience_years": 12,
+      "certifications": ["Supply Chain Management", "HR Certified Professional", "Logistics Optimization", "Training & Development"],
+      "image": "./assets/img/team/person-7.jpeg"
+    }
+  ],
+  "key_personnel": [
+    {
+      "id": 7,
+      "name": "Dian Permatasari",
+      "position": "Senior Security Consultant",
+      "department": "Security",
+      "specialization": "Risk Assessment & Audit",
+      "email": "dian.permatasari@barakconstruction.co.id",
+      "projects": 50,
+      "years_experience": 8,
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956"
+    },
+    {
+      "id": 8,
+      "name": "Rizky Pratama",
+      "position": "Operations Manager",
+      "department": "Operations",
+      "specialization": "Project Implementation",
+      "email": "rizky.pratama@barakconstruction.co.id",
+      "projects": 35,
+      "years_experience": 6,
+      "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e"
+    },
+    {
+      "id": 9,
+      "name": "Lisa Anggraeni",
+      "position": "Client Relations Manager",
+      "department": "Marketing",
+      "specialization": "Client Success",
+      "email": "lisa.anggraeni@barakconstruction.co.id",
+      "clients": 80,
+      "years_experience": 7,
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
+    },
+    {
+      "id": 10,
+      "name": "Budi Santoso",
+      "position": "Training & Development Head",
+      "department": "HR",
+      "specialization": "Personnel Training",
+      "email": "budi.santoso@barakconstruction.co.id",
+      "trained_personnel": 500,
+      "years_experience": 10,
+      "image": "https://images.unsplash.com/photo-1507591064344-4c6ce005-128"
+    }
+  ],
+  "statistics": {
+    "total_team_members": 45,
+    "management_team": 3,
+    "department_heads": 3,
+    "key_personnel": 4,
+    "field_personnel": 35,
+    "average_experience": 8.5,
+    "certifications": 25,
+    "training_hours_annual": 5000
+  },
+  "departments": [
+    {
+      "name": "Security Division",
+      "personnel_count": 20,
+      "head": "Ari Wibowo",
+      "description": "Bertanggung jawab atas semua operasional keamanan dan loss prevention"
+    },
+    {
+      "name": "Operations Division",
+      "personnel_count": 12,
+      "head": "Adhira Jasa",
+      "description": "Mengelola implementasi proyek dan operasional harian"
+    },
+    {
+      "name": "Cleaning Services",
+      "personnel_count": 8,
+      "head": "Sari Dewi",
+      "description": "Menyediakan layanan kebersihan profesional"
+    },
+    {
+      "name": "HR & Training",
+      "personnel_count": 5,
+      "head": "Budi Santoso",
+      "description": "Rekruitmen, training, dan pengembangan SDM"
+    }
+  ]
+}
