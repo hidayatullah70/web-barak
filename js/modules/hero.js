@@ -14,7 +14,7 @@ export function initHero() {
                     <span class="text-white font-medium px-3">Solusi Terintegrasi Sejak 2011</span>
                 </div>
                 
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white p-6 mb-6 leading-tight">
                     Solusi  Keamanan & Layanan <span class="text-accent">Terintegrasi</span> Melindungi Asset Anda
                 </h1>
                 

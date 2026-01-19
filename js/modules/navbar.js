@@ -16,13 +16,10 @@ export function initNavbar() {
                     <!-- Desktop Navigation -->
                     <div class="hidden md:flex items-center space-x-8">
                         <a href="#hero" class="nav-link text-gray-700 hover:text-primary font-medium">Home</a>
-                        <a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium">About Us</a>
+                        <a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium">About</a>
                         <a href="#services" class="nav-link text-gray-700 hover:text-primary font-medium">Services</a>
                         <a href="#portfolio" class="nav-link text-gray-700 hover:text-primary font-medium">Projects</a>
                         <a href="#contact" class="nav-link text-gray-700 hover:text-primary font-medium">Contact</a>
-                        <a href="#contact" class="bg-primary hover:bg-primary-dark text-white px-5 py-2 rounded-lg font-medium shadow-md hover:shadow-lg">
-                            Get Contact
-                        </a>
                     </div>
 
                     <!-- Mobile menu button -->

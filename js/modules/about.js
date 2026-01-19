@@ -20,25 +20,25 @@ export function initAbout() {
                             <img src="assets/img/hero/office-new.jpeg" 
                                  alt="office-new" class="w-full h-auto object-cover">
                         </div>
-                        <div class="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl hidden md:block">
-                            <div class="text-4xl font-bold">12+</div>
-                            <div class="text-sm">Tahun Pengalaman</div>
+                        <div class="absolute -bottom-4 -right-4 bg-primary text-white p-4 rounded-xl shadow-lg hidden md:block">
+                            <div class="text-2xl text-center font-bold">12+</div>
+                            <div class="text-sm text-center">Tahun Pengalaman</div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="lg:w-1/2">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Visi & Misi Perusahaan</h3>
+                    <h3 class="text-2xl font-bold text-gray-900 text-center mb-6">Visi & Misi Perusahaan</h3>
                     
                     <div class="mb-8">
-                        <h4 class="text-xl font-bold text-primary mb-3">Visi</h4>
+                        <h4 class="text-xl font-bold text-center text-primary mb-3">Visi</h4>
                         <p class="text-gray-600">
                             Menjadi perusahaan yang mempunyai nilai tambah sehingga lebih unggul dan terdepan dalam memberikan pelayanan sebagai solusi pengembangan dan pengelolaan tenaga kerja / SDM guna mendukung meningkatkan produktivitas di perusahaan mitra serta menjadi perusahaan Alih Daya dengan pelayanan manajemen yang transparan, bertanggung jawab, jujur dan terpercaya
                         </p>
                     </div>
                     
                     <div class="mb-8">
-                        <h4 class="text-xl font-bold text-primary mb-3">Misi</h4>
+                        <h4 class="text-xl font-bold text-center text-primary mb-3">Misi</h4>
                         <ul class="space-y-3 text-gray-600">
                             <li class="flex items-start">
                                 <i class="fas fa-check-circle text-support mr-3 mt-1"></i>
@@ -65,16 +65,16 @@ export function initAbout() {
                     
                     <div class="flex flex-wrap gap-4">
                         <div class="bg-gray-100 rounded-lg p-4 flex-1 min-w-[200px]">
-                            <div class="text-2xl font-bold text-primary mb-1">500+</div>
-                            <div class="text-gray-600">Personel Aktif</div>
+                            <div class="text-2xl text-center font-bold text-primary mb-1">500+</div>
+                            <div class="text-gray-600 text-center">Personel Aktif</div>
                         </div>
                         <div class="bg-gray-100 rounded-lg p-4 flex-1 min-w-[200px]">
-                            <div class="text-2xl font-bold text-primary mb-1">100+</div>
-                            <div class="text-gray-600">Klien Puas</div>
+                            <div class="text-2xl text-center font-bold text-primary mb-1">100+</div>
+                            <div class="text-gray-600 text-center">Klien Puas</div>
                         </div>
                         <div class="bg-gray-100 rounded-lg p-4 flex-1 min-w-[200px]">
-                            <div class="text-2xl font-bold text-primary mb-1">6</div>
-                            <div class="text-gray-600">Layanan Unggulan</div>
+                            <div class="text-2xl text-center font-bold text-primary mb-1">6</div>
+                            <div class="text-gray-600 text-center">Layanan Unggulan</div>
                         </div>
                     </div>
                 </div>
@@ -82,13 +82,14 @@ export function initAbout() {
             
             <!-- Values Section -->
             <div class="mt-20">
-                <h3 class="text-2xl font-bold text-center text-gray-900 mb-12">Budaya Kerja</h3>
+                <h3 class="text-2xl font-bold text-center text-gray-900 mb-2">Budaya Kerja :</h3>
+                <h4 class="text-4xl font-bold text-center text-accent mb-12">"H A P P Y"</h4>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                         <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <i class="fa-solid fa-scale-balanced text-primary text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-4 text-center">Honesty</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4 text-center">Honesty</h4>
                         <p class="text-gray-600 text-center">Bertindak jujur, tulus, menjunjung tinggi etika dan integritas serta memegang teguh kepercayaan yang diberikan.</p>
                     </div>
                     
@@ -96,7 +97,7 @@ export function initAbout() {
                         <div class="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <i class="fa-solid fa-arrows-rotate text-accent text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-4 text-center">Adaptability</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4 text-center">Adaptability</h4>
                         <p class="text-gray-600 text-center">Bekerja dengan antusias dan menunjukkan komitmen untuk menjadi yang terbaik dalam setiap pekerjaan baik secara individu maupun kelompok</p>
                     </div>
                     
@@ -104,14 +105,14 @@ export function initAbout() {
                         <div class="w-14 h-14 bg-support/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <i class="fa-solid fa-user-tie text-support text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-4 text-center">Profesionalism</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4 text-center">Profesionalism</h4>
                         <p class="text-gray-600 text-center">Bekerja dengan sepenuh hati dan disiplin, berorientasi pada pelayanan prima guna mencapai hasil maksimal sesuai dengan wewenang, tanggung jawab, aturan, keteladanan, norma dan etika profesi</p>
                     </div>
                     <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300">
                         <div class="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <i class="fa-solid fa-hand-holding-heart text-primary text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-4 text-center">Polite</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4 text-center">Polite</h4>
                         <p class="text-gray-600 text-center">Konsistensi dalam bekerja dengan senantiasa menunjukkan sikap santun, saling menghormati dan menghargai</p>
                     </div>
                     
@@ -119,7 +120,7 @@ export function initAbout() {
                         <div class="w-14 h-14 bg-accent/10 rounded-full flex items-center justify-center mb-6 mx-auto">
                             <i class="fa-solid fa-headset text-accent text-2xl"></i>
                         </div>
-                        <h4 class="text-xl font-bold text-gray-900 mb-4 text-center">Customer Centrity</h4>
+                        <h4 class="text-xl font-bold text-accent mb-4 text-center">Customer Centrity</h4>
                         <p class="text-gray-600 text-center">Bekerja dengan senantiasa fokus pada kebutuhan pelanggan, proaktif untuk memberikan pelayanan yang bernilai tambah, mengembangkan danmempertahankan hubungan baik dengan pelanggan eksternal maupun internal</p>
                     </div>
                 </div>
@@ -127,7 +128,7 @@ export function initAbout() {
             
             <!-- Management Team Section -->
             <div class="mt-20">
-                <h3 class="text-2xl font-bold text-center text-gray-900 mb-12">Tim Manajemen</h3>
+                <h3 class="text-2xl font-bold text-center text-accent mb-12">Tim Manajemen</h3>
                 <div id="management-team" class="max-w-6xl mx-auto">
                     <!-- Management team will be loaded here -->
                 </div>
@@ -135,7 +136,7 @@ export function initAbout() {
             
             <!-- Department Heads Section -->
             <div class="mt-20">
-                <h3 class="text-2xl font-bold text-center text-gray-900 mb-12">Kepala Departemen</h3>
+                <h3 class="text-2xl font-bold text-center text-accent mb-12">Kepala Departemen</h3>
                 <div id="department-heads" class="max-w-6xl mx-auto">
                     <!-- Department heads will be loaded here -->
                 </div>
@@ -143,7 +144,7 @@ export function initAbout() {
             
             <!-- Team Statistics Section -->
             <div class="mt-20 bg-gray-50 rounded-2xl p-8">
-                <h3 class="text-2xl font-bold text-center text-gray-900 mb-12">Statistik Tim</h3>
+                <h3 class="text-2xl font-bold text-center text-accent mb-12">Statistik Tim</h3>
                 <div id="team-statistics" class="max-w-4xl mx-auto">
                     <!-- Team statistics will be loaded here -->
                 </div>
@@ -152,7 +153,7 @@ export function initAbout() {
             <!-- Company Profile Download Section -->
             <div class="mt-12">
                 <div class="max-w-sm mx-auto">
-                    <div class="bg-gradient-to-r from-primary to-primary-dark rounded-lg p-1 text-center text-white">
+                    <div class="bg-gradient-to-r from-accent to-accent-dark rounded-lg p-1 text-center text-white">
                         <div class="mb-0 px-0.5">
                             <i class="fas fa-file-pdf text-2xl mb-1"></i>
                             <h3 class="text-sm font-bold mb-0">Company Profile PT. BARAK</h3>

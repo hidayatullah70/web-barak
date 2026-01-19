@@ -116,7 +116,7 @@ export function initContact() {
                                     <h4 class="text-lg font-bold text-gray-900 mb-1">Telepon & WhatsApp</h4>
                                     <p class="text-gray-600">
                                         <a href="tel:+62211234567" class="hover:text-primary transition-colors duration-300">(021) 123-4567</a><br>
-                                        <a href="https://wa.me/6281212345678" class="hover:text-primary transition-colors duration-300">+62 812-8369-8843 (WhatsApp)</a>
+                                        <a href="https://wa.me/6285174334336" class="hover:text-primary transition-colors duration-300">+62 851 7433 4336 (WhatsApp)</a>
                                     </p>
                                 </div>
                             </div>
@@ -224,8 +224,35 @@ function handleFormSubmit(e) {
     submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i> Mengirim...';
     submitButton.disabled = true;
     
-    // Simulasi pengiriman form (dalam implementasi nyata, ini akan mengirim data ke server)
+    // Ambil data form
+    const formData = new FormData(e.target);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const phone = formData.get('phone');
+    const company = formData.get('company');
+    const service = formData.get('service');
+    const message = formData.get('message');
+    
+    // Format pesan untuk WhatsApp
+    const whatsappMessage = `*Halo PT. BARAK, Saya tertarik dengan layanan Anda*\n\n` +
+        `*Nama:* ${name}\n` +
+        `*Email:* ${email}\n` +
+        `*Telepon:* ${phone}\n` +
+        `*Perusahaan:* ${company}\n` +
+        `*Layanan:* ${service}\n` +
+        `*Pesan:* ${message}`;
+    
+    // Nomor WhatsApp tujuan
+    const whatsappNumber = '6285174334336';
+    
+    // Buat URL WhatsApp
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    
+    // Buka WhatsApp
     setTimeout(() => {
+        // Buka WhatsApp di tab baru
+        window.open(whatsappUrl, '_blank');
+        
         // Reset form
         e.target.reset();
         
@@ -236,7 +263,7 @@ function handleFormSubmit(e) {
                 <i class="fas fa-check-circle text-green-500 text-xl mr-3"></i>
                 <div>
                     <h4 class="font-bold">Pesan Terkirim!</h4>
-                    <p>Terima kasih telah menghubungi kami. Tim kami akan merespon dalam waktu 1x24 jam.</p>
+                    <p>Terima kasih telah menghubungi kami. Form telah dibuka di WhatsApp untuk mengirim pesan langsung ke nomor kami.</p>
                 </div>
             </div>
         `;
@@ -250,5 +277,5 @@ function handleFormSubmit(e) {
         setTimeout(() => {
             formMessage.classList.add('hidden');
         }, 5000);
-    }, 1500);
+    }, 1000);
 }
